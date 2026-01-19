@@ -1,7 +1,7 @@
 import React from "react";
 import HotelCard from "./HotelCard";
 
-export default function Section({ title, hotels }) {
+export default function Section({ t, title, hotels, onShowOnMap }) {
   if (!hotels || hotels.length === 0) return null;
 
   return (
@@ -10,7 +10,12 @@ export default function Section({ title, hotels }) {
 
       <div className="hotels-grid">
         {hotels.map((hotel) => (
-          <HotelCard key={hotel.id} hotel={hotel} />
+          <HotelCard
+            t={t}
+            key={hotel.id}
+            hotel={hotel}
+            onShowOnMap={onShowOnMap} // Pasamos la función
+          />
         ))}
       </div>
     </section>

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage({ t, user }) {
+  const navigate = useNavigate();
   const [hotels, setHotels] = useState([]);
   const [filteredHotels, setFilteredHotels] = useState([]);
   const [sortField, setSortField] = useState("");
@@ -354,6 +356,15 @@ export default function HomePage({ t, user }) {
                     : t("rateHotel")}
                 </button>
               )}
+
+              <button
+                className="details-btn map-btn"
+                onClick={() =>
+                  navigate("/map", { state: { hotel } })
+                }
+              >
+                {t("showOnMap")}
+              </button>
             </div>
           </div>
         ))}

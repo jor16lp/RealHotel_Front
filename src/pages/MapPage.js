@@ -32,12 +32,6 @@ export default function MapPage({ t, user }) {
 
   const [userLocation, setUserLocation] = useState(null);
 
-  // const userLocationIcon = new L.Icon({
-  //   iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
-  //   iconSize: [32, 32],
-  //   iconAnchor: [16, 32],
-  //   popupAnchor: [0, -32],
-  // });
   const userLocationIcon = new L.DivIcon({
     className: "user-location-marker", 
     html: `<div class="user-marker-circle"></div>`,
@@ -350,18 +344,72 @@ export default function MapPage({ t, user }) {
               <br></br>
 
               <Section
+                t={t}
                 title={t("otherRecommendedHotels")}
                 hotels={recommendedHotels}
+                onShowOnMap={(hotel) => {
+                  setSelectedHotel(hotel);
+                  if (mapRef.current) {
+                    mapRef.current.setView(
+                      [hotel.latitude, hotel.longitude],
+                      14,
+                      { animate: true }
+                    );
+                  }
+                }}
               />
             </>
           )}
 
-          <Section title={t("recommendedForYou")} hotels={userRecommendations} />
+          <Section
+            t={t}
+            title={t("recommendedForYou")}
+            hotels={userRecommendations}
+            onShowOnMap={(hotel) => {
+              setSelectedHotel(hotel);
+              if (mapRef.current) {
+                mapRef.current.setView(
+                  [hotel.latitude, hotel.longitude],
+                  14,
+                  { animate: true }
+                );
+              }
+            }}
+          />
         </div>
       )}
       <div className="map-results map-results-ubication">
-        <Section title={t("nearYou")} hotels={nearbyHotels} />
-        <Section title={t("bestInYourCity")} hotels={cityRecommendations} />
+        <Section
+          t={t}
+          title={t("nearYou")}
+          hotels={nearbyHotels}
+          onShowOnMap={(hotel) => {
+            setSelectedHotel(hotel);
+            if (mapRef.current) {
+              mapRef.current.setView(
+                [hotel.latitude, hotel.longitude],
+                14,
+                { animate: true }
+              );
+            }
+          }}
+        />
+
+        <Section
+          t={t}
+          title={t("bestInYourCity")}
+          hotels={cityRecommendations}
+          onShowOnMap={(hotel) => {
+            setSelectedHotel(hotel);
+            if (mapRef.current) {
+              mapRef.current.setView(
+                [hotel.latitude, hotel.longitude],
+                14,
+                { animate: true }
+              );
+            }
+          }}
+        />
       </div>
     </div>
   );

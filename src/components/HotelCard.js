@@ -1,7 +1,7 @@
 import React from "react";
 import { getHotelImage } from "../utils/hotelImages";
 
-export default function HotelCard({ hotel }) {
+export default function HotelCard({ t, hotel, onShowOnMap }) {
   if (!hotel) return null;
 
   const imageUrl = getHotelImage(hotel.name);
@@ -36,21 +36,31 @@ export default function HotelCard({ hotel }) {
 
       <div className="hotel-card-extra">
         <p>
-          <strong>Precio medio:</strong> {hotel.averagePrice} €
+          <strong>{t("averagePrice")}:</strong> {hotel.averagePrice} €
         </p>
 
         <p>
-          <strong>Capacidad:</strong> {hotel.capacity}
+          <strong>{t("capacity")}:</strong> {hotel.capacity}
         </p>
 
         {hotel.diningRoomCapacity ? (
           <p>
-            <strong>Capacidad comedor:</strong> {hotel.diningRoomCapacity}
+            <strong>{t("diningRoomCapacity")}:</strong> {hotel.diningRoomCapacity}
           </p>
         ) : (
           <p className="no-dining">
-            <strong>Sin comedor</strong>
+            <strong>{t("noDiningRoom")}</strong>
           </p>
+        )}
+
+        {/* BOTÓN MOSTRAR EN MAPA */}
+        {onShowOnMap && (
+          <button
+            className="details-btn"
+            onClick={() => onShowOnMap(hotel)}
+          >
+            {t("showOnMap")}
+          </button>
         )}
       </div>
     </div>

@@ -791,17 +791,13 @@ Section {
 }
 
 .map-btn {
-  background: #0077cc;
-  color: white;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
+  background-color: #d2d2d2;
+  color: #333;
+  border: 1px solid #ccc;
 }
 
 .map-btn:hover {
-  background: #005fa3;
+  background: #d9efff;
 }
 
 /* ===== RESPONSIVE TEXT SCALING ===== */
