@@ -1,5 +1,5 @@
 const hotelImages = Array.from(
-  { length: 15 },
+  { length: 30 },
   (_, i) => `/hotels/${i + 1}.jpg`
 );
 
