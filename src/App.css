@@ -196,6 +196,10 @@ select:hover:not(:disabled) {
   border-color: #999;
 }
 
+.label-select {
+  display: none;
+}
+
 /* ===== TARJETAS ===== */
 .results-count {
   text-align: center;
@@ -479,7 +483,7 @@ select:hover:not(:disabled) {
 }
 
 .no-dining {
-  color: #888;
+  color: #000000;
 }
 
 Section {

@@ -1,0 +1,2181 @@
+[
+  {
+    "info": {
+      "browsertime": {
+        "version": "26.3.2"
+      },
+      "url": "http://localhost:3000",
+      "timestamp": "2026-01-26T11:36:52+01:00",
+      "connectivity": {
+        "engine": "external",
+        "profile": "native"
+      },
+      "extra": {},
+      "browser": {
+        "name": "firefox",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+        "version": "147.0.1"
+      }
+    },
+    "files": {
+      "video": [],
+      "screenshot": [],
+      "timeline": [],
+      "consoleLog": [],
+      "netLog": [],
+      "perfLog": [],
+      "geckoProfiles": [],
+      "memoryReports": []
+    },
+    "markedAsFailure": 0,
+    "failureMessages": [],
+    "cdp": {
+      "performance": []
+    },
+    "android": {
+      "batteryTemperature": [],
+      "power": []
+    },
+    "timestamps": [
+      "2026-01-26T11:36:40+01:00",
+      "2026-01-26T11:36:55+01:00",
+      "2026-01-26T11:37:10+01:00"
+    ],
+    "browserScripts": [
+      {
+        "browser": {
+          "cpuBenchmark": 54,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+          "windowSize": "1350x674"
+        },
+        "pageinfo": {
+          "documentHeight": 3781,
+          "documentSize": {
+            "decodedBodySize": 1711,
+            "encodedBodySize": 794,
+            "transferSize": 1094
+          },
+          "documentTitle": "React App",
+          "documentWidth": 1333,
+          "domElements": 185,
+          "interactionToNextPaintInfo": {
+            "className": "",
+            "domPath": "",
+            "entries": [
+              {
+                "id": 6857,
+                "latency": 32,
+                "name": "pointerdown"
+              }
+            ],
+            "eventTarget": "",
+            "eventTime": 1388.14,
+            "eventType": "pointerdown",
+            "latency": 32,
+            "loadState": "complete",
+            "tag": "",
+            "tagName": ""
+          },
+          "largestContentfulPaintInfo": [
+            {
+              "className": "",
+              "domPath": "body > div#root > nav > div:eq(0) > a:eq(0)",
+              "duration": 0,
+              "elementRenderDelay": 279,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 294,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 1219,
+              "startTime": 294,
+              "tag": "<a href=\"/\" data-discover=\"true\"></a>",
+              "tagName": "A",
+              "ttfb": 15,
+              "url": ""
+            },
+            {
+              "className": "",
+              "domPath": "",
+              "duration": 0,
+              "elementRenderDelay": 279,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 294,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 3307,
+              "startTime": 294,
+              "tag": "",
+              "tagName": "",
+              "ttfb": 15,
+              "url": ""
+            },
+            {
+              "className": "",
+              "domPath": "",
+              "duration": 0,
+              "elementRenderDelay": 279,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 294,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 14610,
+              "startTime": 294,
+              "tag": "",
+              "tagName": "",
+              "ttfb": 15,
+              "url": ""
+            }
+          ],
+          "navigationStartTime": 1769423800242,
+          "nextHopProtocol": "http/1.1",
+          "resources": {
+            "count": 21,
+            "duration": 1337.3999999999974
+          },
+          "responsive": true,
+          "url": "http://localhost:3000/recommendations",
+          "visualElements": {
+            "heroes": [
+              {
+                "filename": "15.jpg",
+                "height": 113,
+                "html": "<img alt=\"Apartamentos Vista\" class=\"hotel-image\" src=\"/hotels/15.jpg\">",
+                "name": "LargestImage",
+                "width": 200,
+                "x": 445,
+                "y": 236
+              }
+            ],
+            "viewport": {
+              "height": 674,
+              "width": 1333
+            }
+          }
+        },
+        "timings": {
+          "firstInput": {
+            "delay": 18.3,
+            "duration": 32,
+            "name": "pointerdown",
+            "processingEnd": 1407,
+            "processingStart": 1406,
+            "startTime": 1388
+          },
+          "firstPaint": 66,
+          "interactionToNextPaint": 32,
+          "largestContentfulPaint": {
+            "className": "",
+            "domPath": "",
+            "duration": 0,
+            "elementRenderDelay": 279,
+            "id": "",
+            "loadTime": 0,
+            "renderTime": 294,
+            "resourceLoadDelay": 0,
+            "resourceLoadDuration": 0,
+            "size": 14610,
+            "startTime": 294,
+            "tag": "",
+            "tagName": "",
+            "ttfb": 15,
+            "url": ""
+          },
+          "loadEventEnd": 297,
+          "navigationTiming": {
+            "connectStart": 13,
+            "domComplete": 297,
+            "domContentLoadedEventEnd": 297,
+            "domContentLoadedEventStart": 295,
+            "domInteractive": 56,
+            "domainLookupEnd": 13,
+            "domainLookupStart": 12,
+            "duration": 297,
+            "fetchStart": 0,
+            "loadEventEnd": 297,
+            "loadEventStart": 297,
+            "redirectEnd": 0,
+            "redirectStart": 0,
+            "requestStart": 14,
+            "responseEnd": 15,
+            "responseStart": 15,
+            "secureConnectionStart": 0,
+            "startTime": 0,
+            "unloadEventEnd": 0,
+            "unloadEventStart": 0,
+            "workerStart": 0
+          },
+          "pageTimings": {
+            "backEndTime": 15,
+            "domContentLoadedTime": 295,
+            "domInteractiveTime": 56,
+            "domainLookupTime": 0,
+            "frontEndTime": 282,
+            "pageDownloadTime": 0,
+            "pageLoadTime": 297,
+            "redirectionTime": 0,
+            "serverConnectionTime": 0,
+            "serverResponseTime": 2
+          },
+          "paintTiming": {
+            "first-contentful-paint": 294
+          },
+          "serverTimings": [],
+          "timeToContentfulPaint": 517,
+          "timeToFirstInteractive": 517,
+          "ttfb": 15,
+          "userTimings": {
+            "marks": [],
+            "measures": []
+          }
+        }
+      },
+      {
+        "browser": {
+          "cpuBenchmark": 52,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+          "windowSize": "1350x674"
+        },
+        "pageinfo": {
+          "documentHeight": 685,
+          "documentSize": {
+            "decodedBodySize": 1711,
+            "encodedBodySize": 794,
+            "transferSize": 1094
+          },
+          "documentTitle": "React App",
+          "documentWidth": 1333,
+          "domElements": 35,
+          "interactionToNextPaintInfo": {
+            "className": "",
+            "domPath": "body > div#root > nav > div:eq(1) > a:eq(0)",
+            "entries": [
+              {
+                "id": 5063,
+                "latency": 16,
+                "name": "pointerdown"
+              }
+            ],
+            "eventTarget": "#root>nav.navbar>div.nav-right>a",
+            "eventTime": 3584.76,
+            "eventType": "pointerdown",
+            "latency": 16,
+            "loadState": "complete",
+            "tag": "<a href=\"/login\" data-discover=\"true\"></a>",
+            "tagName": "A"
+          },
+          "largestContentfulPaintInfo": [
+            {
+              "className": "",
+              "domPath": "",
+              "duration": 0,
+              "elementRenderDelay": 256,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 283,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 281,
+              "startTime": 283,
+              "tag": "",
+              "tagName": "",
+              "ttfb": 26,
+              "url": ""
+            },
+            {
+              "className": "",
+              "domPath": "",
+              "duration": 0,
+              "elementRenderDelay": 256,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 283,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 14610,
+              "startTime": 283,
+              "tag": "",
+              "tagName": "",
+              "ttfb": 26,
+              "url": ""
+            }
+          ],
+          "navigationStartTime": 1769423815624,
+          "nextHopProtocol": "http/1.1",
+          "resources": {
+            "count": 5,
+            "duration": 578.0600000000002
+          },
+          "responsive": true,
+          "url": "http://localhost:3000/login",
+          "visualElements": {
+            "heroes": [],
+            "viewport": {
+              "height": 674,
+              "width": 1333
+            }
+          }
+        },
+        "timings": {
+          "firstInput": {
+            "delay": 9.6,
+            "duration": 16,
+            "name": "pointerdown",
+            "processingEnd": 3594,
+            "processingStart": 3594,
+            "startTime": 3585
+          },
+          "firstPaint": 83,
+          "interactionToNextPaint": 16,
+          "largestContentfulPaint": {
+            "className": "",
+            "domPath": "",
+            "duration": 0,
+            "elementRenderDelay": 256,
+            "id": "",
+            "loadTime": 0,
+            "renderTime": 283,
+            "resourceLoadDelay": 0,
+            "resourceLoadDuration": 0,
+            "size": 14610,
+            "startTime": 283,
+            "tag": "",
+            "tagName": "",
+            "ttfb": 26,
+            "url": ""
+          },
+          "loadEventEnd": 286,
+          "navigationTiming": {
+            "connectStart": 18,
+            "domComplete": 286,
+            "domContentLoadedEventEnd": 286,
+            "domContentLoadedEventStart": 283,
+            "domInteractive": 69,
+            "domainLookupEnd": 18,
+            "domainLookupStart": 17,
+            "duration": 286,
+            "fetchStart": 0,
+            "loadEventEnd": 286,
+            "loadEventStart": 286,
+            "redirectEnd": 0,
+            "redirectStart": 0,
+            "requestStart": 24,
+            "responseEnd": 26,
+            "responseStart": 26,
+            "secureConnectionStart": 0,
+            "startTime": 0,
+            "unloadEventEnd": 0,
+            "unloadEventStart": 0,
+            "workerStart": 0
+          },
+          "pageTimings": {
+            "backEndTime": 26,
+            "domContentLoadedTime": 283,
+            "domInteractiveTime": 69,
+            "domainLookupTime": 0,
+            "frontEndTime": 260,
+            "pageDownloadTime": 0,
+            "pageLoadTime": 286,
+            "redirectionTime": 0,
+            "serverConnectionTime": 0,
+            "serverResponseTime": 2
+          },
+          "paintTiming": {
+            "first-contentful-paint": 283
+          },
+          "serverTimings": [],
+          "timeToContentfulPaint": 461,
+          "timeToFirstInteractive": 461,
+          "ttfb": 26,
+          "userTimings": {
+            "marks": [],
+            "measures": []
+          }
+        }
+      },
+      {
+        "browser": {
+          "cpuBenchmark": 71,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
+          "windowSize": "1350x674"
+        },
+        "pageinfo": {
+          "documentHeight": 1899,
+          "documentSize": {
+            "decodedBodySize": 1711,
+            "encodedBodySize": 794,
+            "transferSize": 1094
+          },
+          "documentTitle": "React App",
+          "documentWidth": 1333,
+          "domElements": 2901,
+          "interactionToNextPaintInfo": {
+            "className": "",
+            "domPath": "",
+            "entries": [
+              {
+                "id": 3222,
+                "latency": 32,
+                "name": "pointerdown"
+              }
+            ],
+            "eventTarget": "",
+            "eventTime": 1467.36,
+            "eventType": "pointerdown",
+            "latency": 32,
+            "loadState": "complete",
+            "tag": "",
+            "tagName": ""
+          },
+          "largestContentfulPaintInfo": [
+            {
+              "className": "lang-btn ",
+              "domPath": "body > div#root > nav > div:eq(1) > div:eq(0) > button:eq(1)",
+              "duration": 0,
+              "elementRenderDelay": 236,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 255,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 655,
+              "startTime": 255,
+              "tag": "<button class=\"lang-btn \" title=\"English\"></button>",
+              "tagName": "BUTTON",
+              "ttfb": 18,
+              "url": ""
+            },
+            {
+              "className": "",
+              "domPath": "body > div#root > nav > div:eq(0) > a:eq(1)",
+              "duration": 0,
+              "elementRenderDelay": 236,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 255,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 702,
+              "startTime": 255,
+              "tag": "<a href=\"/map\" data-discover=\"true\"></a>",
+              "tagName": "A",
+              "ttfb": 18,
+              "url": ""
+            },
+            {
+              "className": "",
+              "domPath": "",
+              "duration": 0,
+              "elementRenderDelay": 236,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 255,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 5498,
+              "startTime": 255,
+              "tag": "",
+              "tagName": "",
+              "ttfb": 18,
+              "url": ""
+            },
+            {
+              "className": "",
+              "domPath": "",
+              "duration": 0,
+              "elementRenderDelay": 236,
+              "id": "",
+              "loadTime": 0,
+              "renderTime": 255,
+              "resourceLoadDelay": 0,
+              "resourceLoadDuration": 0,
+              "size": 14610,
+              "startTime": 255,
+              "tag": "",
+              "tagName": "",
+              "ttfb": 18,
+              "url": ""
+            }
+          ],
+          "navigationStartTime": 1769423831022,
+          "nextHopProtocol": "http/1.1",
+          "resources": {
+            "count": 39,
+            "duration": 5178.459999999999
+          },
+          "responsive": true,
+          "url": "http://localhost:3000/map",
+          "visualElements": {
+            "heroes": [
+              {
+                "filename": "3088.png",
+                "height": 256,
+                "html": "<img alt=\"\" src=\"https://b.tile.openstreetmap.org/13/4011/3088.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(465px, 19px, 0px); opacity: 1;\">",
+                "name": "LargestImage",
+                "width": 256,
+                "x": 483,
+                "y": 108
+              }
+            ],
+            "viewport": {
+              "height": 674,
+              "width": 1333
+            }
+          }
+        },
+        "timings": {
+          "firstInput": {
+            "delay": 17.9,
+            "duration": 32,
+            "name": "pointerdown",
+            "processingEnd": 1485,
+            "processingStart": 1485,
+            "startTime": 1467
+          },
+          "firstPaint": 66,
+          "interactionToNextPaint": 32,
+          "largestContentfulPaint": {
+            "className": "",
+            "domPath": "",
+            "duration": 0,
+            "elementRenderDelay": 236,
+            "id": "",
+            "loadTime": 0,
+            "renderTime": 255,
+            "resourceLoadDelay": 0,
+            "resourceLoadDuration": 0,
+            "size": 14610,
+            "startTime": 255,
+            "tag": "",
+            "tagName": "",
+            "ttfb": 18,
+            "url": ""
+          },
+          "loadEventEnd": 258,
+          "navigationTiming": {
+            "connectStart": 15,
+            "domComplete": 258,
+            "domContentLoadedEventEnd": 258,
+            "domContentLoadedEventStart": 255,
+            "domInteractive": 48,
+            "domainLookupEnd": 15,
+            "domainLookupStart": 14,
+            "duration": 258,
+            "fetchStart": 0,
+            "loadEventEnd": 258,
+            "loadEventStart": 258,
+            "redirectEnd": 0,
+            "redirectStart": 0,
+            "requestStart": 16,
+            "responseEnd": 19,
+            "responseStart": 18,
+            "secureConnectionStart": 0,
+            "startTime": 0,
+            "unloadEventEnd": 0,
+            "unloadEventStart": 0,
+            "workerStart": 0
+          },
+          "pageTimings": {
+            "backEndTime": 18,
+            "domContentLoadedTime": 255,
+            "domInteractiveTime": 48,
+            "domainLookupTime": 0,
+            "frontEndTime": 239,
+            "pageDownloadTime": 0,
+            "pageLoadTime": 258,
+            "redirectionTime": 0,
+            "serverConnectionTime": 0,
+            "serverResponseTime": 2
+          },
+          "paintTiming": {
+            "first-contentful-paint": 255
+          },
+          "serverTimings": [],
+          "timeToContentfulPaint": 446,
+          "timeToFirstInteractive": 446,
+          "ttfb": 18,
+          "userTimings": {
+            "marks": [],
+            "measures": []
+          }
+        }
+      }
+    ],
+    "visualMetrics": [],
+    "deltaToTTFB": [
+      {
+        "firstContentfulPaint": 279,
+        "largestContentfulPaint": 279
+      },
+      {
+        "firstContentfulPaint": 257,
+        "largestContentfulPaint": 257
+      },
+      {
+        "firstContentfulPaint": 237,
+        "largestContentfulPaint": 237
+      }
+    ],
+    "cpu": [
+      5645,
+      3229,
+      6271
+    ],
+    "googleWebVitals": [
+      {
+        "largestContentfulPaint": 294,
+        "firstContentfulPaint": 294
+      },
+      {
+        "largestContentfulPaint": 283,
+        "firstContentfulPaint": 283
+      },
+      {
+        "largestContentfulPaint": 255,
+        "firstContentfulPaint": 255
+      }
+    ],
+    "extras": [
+      {},
+      {},
+      {}
+    ],
+    "fullyLoaded": [
+      9214,
+      315,
+      10377
+    ],
+    "mainDocumentTimings": [
+      {
+        "blocked": 12.158935546875,
+        "dns": 0.072998046875,
+        "connect": 0.18603515625,
+        "ssl": 0.18603515625,
+        "send": 0.837158203125,
+        "wait": 1.760986328125,
+        "receive": 0.048828125
+      },
+      {
+        "blocked": 17.01806640625,
+        "dns": 0.08984375,
+        "connect": 0.296142578125,
+        "ssl": 0.296142578125,
+        "send": 6.255859375,
+        "wait": 2.05908203125,
+        "receive": 0.0888671875
+      },
+      {
+        "blocked": 14.138916015625,
+        "dns": 0.052001953125,
+        "connect": 0.177978515625,
+        "ssl": 0.177978515625,
+        "send": 1.220947265625,
+        "wait": 2.39501953125,
+        "receive": 0.078125
+      }
+    ],
+    "errors": [
+      [],
+      [],
+      []
+    ],
+    "renderBlocking": [],
+    "server": {
+      "processesAtStart": []
+    },
+    "statistics": {
+      "browser": {
+        "cpuBenchmark": {
+          "median": 54,
+          "mean": 59,
+          "mdev": 4.9216,
+          "rsd": 14.448261980276182,
+          "stddev": 9,
+          "min": 52,
+          "p10": 52,
+          "p90": 71,
+          "p99": 71,
+          "max": 71
+        }
+      },
+      "pageinfo": {
+        "documentHeight": {
+          "median": 1899,
+          "mean": 2122,
+          "mdev": 735.3743,
+          "rsd": 60.033261809009495,
+          "stddev": 1274,
+          "min": 685,
+          "p10": 685,
+          "p90": 3781,
+          "p99": 3781,
+          "max": 3781
+        },
+        "documentSize": {
+          "decodedBodySize": {
+            "median": 1711,
+            "mean": 1711,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 1711,
+            "p10": 1711,
+            "p90": 1711,
+            "p99": 1711,
+            "max": 1711
+          },
+          "encodedBodySize": {
+            "median": 794,
+            "mean": 794,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 794,
+            "p10": 794,
+            "p90": 794,
+            "p99": 794,
+            "max": 794
+          },
+          "transferSize": {
+            "median": 1094,
+            "mean": 1094,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 1094,
+            "p10": 1094,
+            "p90": 1094,
+            "p99": 1094,
+            "max": 1094
+          }
+        },
+        "documentWidth": {
+          "median": 1333,
+          "mean": 1333,
+          "mdev": 0,
+          "rsd": 0,
+          "stddev": 0,
+          "min": 1333,
+          "p10": 1333,
+          "p90": 1333,
+          "p99": 1333,
+          "max": 1333
+        },
+        "domElements": {
+          "median": 185,
+          "mean": 1040,
+          "mdev": 760.4363,
+          "rsd": 126.6050324513901,
+          "stddev": 1317,
+          "min": 35,
+          "p10": 35,
+          "p90": 2901,
+          "p99": 2901,
+          "max": 2901
+        },
+        "interactionToNextPaintInfo": {
+          "entries": {
+            "0": {
+              "id": {
+                "median": 5063,
+                "mean": 5047,
+                "mdev": 856.8016,
+                "rsd": 29.40213744956394,
+                "stddev": 1484,
+                "min": 3222,
+                "p10": 3222,
+                "p90": 6857,
+                "p99": 6857,
+                "max": 6857
+              },
+              "latency": {
+                "median": 32,
+                "mean": 27,
+                "mdev": 4.3546,
+                "rsd": 28.284271247461902,
+                "stddev": 8,
+                "min": 16,
+                "p10": 16,
+                "p90": 32,
+                "p99": 32,
+                "max": 32
+              }
+            }
+          },
+          "eventTime": {
+            "median": 1467,
+            "mean": 2147,
+            "mdev": 587.3606,
+            "rsd": 47.38963020933127,
+            "stddev": 1017,
+            "min": 1388,
+            "p10": 1388,
+            "p90": 3585,
+            "p99": 3585,
+            "max": 3585
+          },
+          "latency": {
+            "median": 32,
+            "mean": 27,
+            "mdev": 4.3546,
+            "rsd": 28.284271247461902,
+            "stddev": 8,
+            "min": 16,
+            "p10": 16,
+            "p90": 32,
+            "p99": 32,
+            "max": 32
+          }
+        },
+        "largestContentfulPaintInfo": {
+          "0": {
+            "duration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "elementRenderDelay": {
+              "median": 256,
+              "mean": 257,
+              "mdev": 10.1434,
+              "rsd": 6.836152504853146,
+              "stddev": 18,
+              "min": 236,
+              "p10": 236,
+              "p90": 279,
+              "p99": 279,
+              "max": 279
+            },
+            "loadTime": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "renderTime": {
+              "median": 283,
+              "mean": 277,
+              "mdev": 9.479,
+              "rsd": 5.920004978858053,
+              "stddev": 16,
+              "min": 255,
+              "p10": 255,
+              "p90": 294,
+              "p99": 294,
+              "max": 294
+            },
+            "resourceLoadDelay": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "resourceLoadDuration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "size": {
+              "median": 655,
+              "mean": 718,
+              "mdev": 222.5955,
+              "rsd": 53.67238799383378,
+              "stddev": 386,
+              "min": 281,
+              "p10": 281,
+              "p90": 1219,
+              "p99": 1219,
+              "max": 1219
+            },
+            "startTime": {
+              "median": 283,
+              "mean": 277,
+              "mdev": 9.479,
+              "rsd": 5.920004978858053,
+              "stddev": 16,
+              "min": 255,
+              "p10": 255,
+              "p90": 294,
+              "p99": 294,
+              "max": 294
+            },
+            "ttfb": {
+              "median": 18,
+              "mean": 20,
+              "mdev": 2.6805,
+              "rsd": 23.607437757939184,
+              "stddev": 5,
+              "min": 15,
+              "p10": 15,
+              "p90": 26,
+              "p99": 26,
+              "max": 26
+            }
+          },
+          "1": {
+            "duration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "elementRenderDelay": {
+              "median": 256,
+              "mean": 257,
+              "mdev": 10.1434,
+              "rsd": 6.836152504853146,
+              "stddev": 18,
+              "min": 236,
+              "p10": 236,
+              "p90": 279,
+              "p99": 279,
+              "max": 279
+            },
+            "loadTime": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "renderTime": {
+              "median": 283,
+              "mean": 277,
+              "mdev": 9.479,
+              "rsd": 5.920004978858053,
+              "stddev": 16,
+              "min": 255,
+              "p10": 255,
+              "p90": 294,
+              "p99": 294,
+              "max": 294
+            },
+            "resourceLoadDelay": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "resourceLoadDuration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "size": {
+              "median": 3307,
+              "mean": 6206,
+              "mdev": 3485.2934,
+              "rsd": 97.26685591302027,
+              "stddev": 6037,
+              "min": 702,
+              "p10": 702,
+              "p90": 14610,
+              "p99": 14610,
+              "max": 14610
+            },
+            "startTime": {
+              "median": 283,
+              "mean": 277,
+              "mdev": 9.479,
+              "rsd": 5.920004978858053,
+              "stddev": 16,
+              "min": 255,
+              "p10": 255,
+              "p90": 294,
+              "p99": 294,
+              "max": 294
+            },
+            "ttfb": {
+              "median": 18,
+              "mean": 20,
+              "mdev": 2.6805,
+              "rsd": 23.607437757939184,
+              "stddev": 5,
+              "min": 15,
+              "p10": 15,
+              "p90": 26,
+              "p99": 26,
+              "max": 26
+            }
+          },
+          "2": {
+            "duration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "elementRenderDelay": {
+              "median": 258,
+              "mean": 258,
+              "mdev": 15.2028,
+              "rsd": 8.349514563106796,
+              "stddev": 22,
+              "min": 236,
+              "p10": 236,
+              "p90": 279,
+              "p99": 279,
+              "max": 279
+            },
+            "loadTime": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "renderTime": {
+              "median": 275,
+              "mean": 275,
+              "mdev": 13.7886,
+              "rsd": 7.103825136612022,
+              "stddev": 20,
+              "min": 255,
+              "p10": 255,
+              "p90": 294,
+              "p99": 294,
+              "max": 294
+            },
+            "resourceLoadDelay": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "resourceLoadDuration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "size": {
+              "median": 10054,
+              "mean": 10054,
+              "mdev": 3221.5785,
+              "rsd": 45.31529739407201,
+              "stddev": 4556,
+              "min": 5498,
+              "p10": 5498,
+              "p90": 14610,
+              "p99": 14610,
+              "max": 14610
+            },
+            "startTime": {
+              "median": 275,
+              "mean": 275,
+              "mdev": 13.7886,
+              "rsd": 7.103825136612022,
+              "stddev": 20,
+              "min": 255,
+              "p10": 255,
+              "p90": 294,
+              "p99": 294,
+              "max": 294
+            },
+            "ttfb": {
+              "median": 16.5,
+              "mean": 16.5,
+              "mdev": 1.0607,
+              "rsd": 9.090909090909092,
+              "stddev": 1.5,
+              "min": 15,
+              "p10": 15,
+              "p90": 18,
+              "p99": 18,
+              "max": 18
+            }
+          },
+          "3": {
+            "duration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "elementRenderDelay": {
+              "median": 236,
+              "mean": 236,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 236,
+              "p10": 236,
+              "p90": 236,
+              "p99": 236,
+              "max": 236
+            },
+            "loadTime": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "renderTime": {
+              "median": 255,
+              "mean": 255,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 255,
+              "p10": 255,
+              "p90": 255,
+              "p99": 255,
+              "max": 255
+            },
+            "resourceLoadDelay": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "resourceLoadDuration": {
+              "median": 0,
+              "mean": 0,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 0,
+              "p10": 0,
+              "p90": 0,
+              "p99": 0,
+              "max": 0
+            },
+            "size": {
+              "median": 14610,
+              "mean": 14610,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 14610,
+              "p10": 14610,
+              "p90": 14610,
+              "p99": 14610,
+              "max": 14610
+            },
+            "startTime": {
+              "median": 255,
+              "mean": 255,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 255,
+              "p10": 255,
+              "p90": 255,
+              "p99": 255,
+              "max": 255
+            },
+            "ttfb": {
+              "median": 18,
+              "mean": 18,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 18,
+              "p10": 18,
+              "p90": 18,
+              "p99": 18,
+              "max": 18
+            }
+          }
+        },
+        "navigationStartTime": {
+          "median": 1769423815624,
+          "mean": 1769423815629,
+          "mdev": 0,
+          "rsd": 0,
+          "stddev": 0,
+          "min": 1769423800242,
+          "p10": 1769423800242,
+          "p90": 1769423831022,
+          "p99": 1769423831022,
+          "max": 1769423831022
+        },
+        "resources": {
+          "count": {
+            "median": 21,
+            "mean": 22,
+            "mdev": 8.0185,
+            "rsd": 64.10051278769126,
+            "stddev": 14,
+            "min": 5,
+            "p10": 5,
+            "p90": 39,
+            "p99": 39,
+            "max": 39
+          },
+          "duration": {
+            "median": 1337,
+            "mean": 2365,
+            "mdev": 1162.5964,
+            "rsd": 85.15782531879859,
+            "stddev": 2014,
+            "min": 578,
+            "p10": 578,
+            "p90": 5178,
+            "p99": 5178,
+            "max": 5178
+          }
+        },
+        "visualElements": {
+          "heroes": {
+            "0": {
+              "height": {
+                "median": 185,
+                "mean": 185,
+                "mdev": 50.5581,
+                "rsd": 38.75338753387534,
+                "stddev": 72,
+                "min": 113,
+                "p10": 113,
+                "p90": 256,
+                "p99": 256,
+                "max": 256
+              },
+              "width": {
+                "median": 228,
+                "mean": 228,
+                "mdev": 19.799,
+                "rsd": 12.280701754385966,
+                "stddev": 28,
+                "min": 200,
+                "p10": 200,
+                "p90": 256,
+                "p99": 256,
+                "max": 256
+              },
+              "x": {
+                "median": 464,
+                "mean": 464,
+                "mdev": 13.435,
+                "rsd": 4.094827586206897,
+                "stddev": 19,
+                "min": 445,
+                "p10": 445,
+                "p90": 483,
+                "p99": 483,
+                "max": 483
+              },
+              "y": {
+                "median": 172,
+                "mean": 172,
+                "mdev": 45.2548,
+                "rsd": 37.2093023255814,
+                "stddev": 64,
+                "min": 108,
+                "p10": 108,
+                "p90": 236,
+                "p99": 236,
+                "max": 236
+              }
+            }
+          },
+          "viewport": {
+            "height": {
+              "median": 674,
+              "mean": 674,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 674,
+              "p10": 674,
+              "p90": 674,
+              "p99": 674,
+              "max": 674
+            },
+            "width": {
+              "median": 1333,
+              "mean": 1333,
+              "mdev": 0,
+              "rsd": 0,
+              "stddev": 0,
+              "min": 1333,
+              "p10": 1333,
+              "p90": 1333,
+              "p99": 1333,
+              "max": 1333
+            }
+          }
+        }
+      },
+      "timings": {
+        "firstInput": {
+          "delay": {
+            "median": 17.9,
+            "mean": 15.27,
+            "mdev": 2.3153,
+            "rsd": 26.26810878279611,
+            "stddev": 4.01,
+            "min": 9.6,
+            "p10": 9.6,
+            "p90": 18.3,
+            "p99": 18.3,
+            "max": 18.3
+          },
+          "duration": {
+            "median": 32,
+            "mean": 27,
+            "mdev": 4.3546,
+            "rsd": 28.284271247461902,
+            "stddev": 8,
+            "min": 16,
+            "p10": 16,
+            "p90": 32,
+            "p99": 32,
+            "max": 32
+          },
+          "processingEnd": {
+            "median": 1485,
+            "mean": 2162,
+            "mdev": 584.9006,
+            "rsd": 46.85834827162149,
+            "stddev": 1013,
+            "min": 1407,
+            "p10": 1407,
+            "p90": 3594,
+            "p99": 3594,
+            "max": 3594
+          },
+          "processingStart": {
+            "median": 1485,
+            "mean": 2162,
+            "mdev": 585.044,
+            "rsd": 46.877069551988036,
+            "stddev": 1013,
+            "min": 1406,
+            "p10": 1406,
+            "p90": 3594,
+            "p99": 3594,
+            "max": 3594
+          },
+          "startTime": {
+            "median": 1467,
+            "mean": 2147,
+            "mdev": 587.4923,
+            "rsd": 47.402165545539134,
+            "stddev": 1018,
+            "min": 1388,
+            "p10": 1388,
+            "p90": 3585,
+            "p99": 3585,
+            "max": 3585
+          }
+        },
+        "firstPaint": {
+          "median": 66,
+          "mean": 72,
+          "mdev": 4.6268,
+          "rsd": 11.182153748996564,
+          "stddev": 8,
+          "min": 66,
+          "p10": 66,
+          "p90": 83,
+          "p99": 83,
+          "max": 83
+        },
+        "interactionToNextPaint": {
+          "median": 32,
+          "mean": 27,
+          "mdev": 4.3546,
+          "rsd": 28.284271247461902,
+          "stddev": 8,
+          "min": 16,
+          "p10": 16,
+          "p90": 32,
+          "p99": 32,
+          "max": 32
+        },
+        "largestContentfulPaint": {
+          "duration": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "elementRenderDelay": {
+            "median": 256,
+            "mean": 257,
+            "mdev": 10.1434,
+            "rsd": 6.836152504853146,
+            "stddev": 18,
+            "min": 236,
+            "p10": 236,
+            "p90": 279,
+            "p99": 279,
+            "max": 279
+          },
+          "loadTime": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "renderTime": {
+            "median": 283,
+            "mean": 277,
+            "mdev": 9.479,
+            "rsd": 5.920004978858053,
+            "stddev": 16,
+            "min": 255,
+            "p10": 255,
+            "p90": 294,
+            "p99": 294,
+            "max": 294
+          },
+          "resourceLoadDelay": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "resourceLoadDuration": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "size": {
+            "median": 14610,
+            "mean": 14610,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 14610,
+            "p10": 14610,
+            "p90": 14610,
+            "p99": 14610,
+            "max": 14610
+          },
+          "startTime": {
+            "median": 283,
+            "mean": 277,
+            "mdev": 9.479,
+            "rsd": 5.920004978858053,
+            "stddev": 16,
+            "min": 255,
+            "p10": 255,
+            "p90": 294,
+            "p99": 294,
+            "max": 294
+          },
+          "ttfb": {
+            "median": 18,
+            "mean": 20,
+            "mdev": 2.6805,
+            "rsd": 23.607437757939184,
+            "stddev": 5,
+            "min": 15,
+            "p10": 15,
+            "p90": 26,
+            "p99": 26,
+            "max": 26
+          }
+        },
+        "loadEventEnd": {
+          "median": 286,
+          "mean": 280,
+          "mdev": 9.479,
+          "rsd": 5.856651774565874,
+          "stddev": 16,
+          "min": 258,
+          "p10": 258,
+          "p90": 297,
+          "p99": 297,
+          "max": 297
+        },
+        "navigationTiming": {
+          "connectStart": {
+            "median": 15,
+            "mean": 15,
+            "mdev": 1.1863,
+            "rsd": 13.400900006454297,
+            "stddev": 2,
+            "min": 13,
+            "p10": 13,
+            "p90": 18,
+            "p99": 18,
+            "max": 18
+          },
+          "domComplete": {
+            "median": 286,
+            "mean": 280,
+            "mdev": 9.479,
+            "rsd": 5.856651774565874,
+            "stddev": 16,
+            "min": 258,
+            "p10": 258,
+            "p90": 297,
+            "p99": 297,
+            "max": 297
+          },
+          "domContentLoadedEventEnd": {
+            "median": 286,
+            "mean": 280,
+            "mdev": 9.479,
+            "rsd": 5.856651774565874,
+            "stddev": 16,
+            "min": 258,
+            "p10": 258,
+            "p90": 297,
+            "p99": 297,
+            "max": 297
+          },
+          "domContentLoadedEventStart": {
+            "median": 283,
+            "mean": 278,
+            "mdev": 9.6762,
+            "rsd": 6.035920811513342,
+            "stddev": 17,
+            "min": 255,
+            "p10": 255,
+            "p90": 295,
+            "p99": 295,
+            "max": 295
+          },
+          "domInteractive": {
+            "median": 56,
+            "mean": 58,
+            "mdev": 4.9963,
+            "rsd": 15.00665316271349,
+            "stddev": 9,
+            "min": 48,
+            "p10": 48,
+            "p90": 69,
+            "p99": 69,
+            "max": 69
+          },
+          "domainLookupEnd": {
+            "median": 15,
+            "mean": 15,
+            "mdev": 1.1863,
+            "rsd": 13.400900006454297,
+            "stddev": 2,
+            "min": 13,
+            "p10": 13,
+            "p90": 18,
+            "p99": 18,
+            "max": 18
+          },
+          "domainLookupStart": {
+            "median": 14,
+            "mean": 14,
+            "mdev": 1.1863,
+            "rsd": 14.335846518532504,
+            "stddev": 2,
+            "min": 12,
+            "p10": 12,
+            "p90": 17,
+            "p99": 17,
+            "max": 17
+          },
+          "duration": {
+            "median": 286,
+            "mean": 280,
+            "mdev": 9.479,
+            "rsd": 5.856651774565874,
+            "stddev": 16,
+            "min": 258,
+            "p10": 258,
+            "p90": 297,
+            "p99": 297,
+            "max": 297
+          },
+          "fetchStart": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "loadEventEnd": {
+            "median": 286,
+            "mean": 280,
+            "mdev": 9.479,
+            "rsd": 5.856651774565874,
+            "stddev": 16,
+            "min": 258,
+            "p10": 258,
+            "p90": 297,
+            "p99": 297,
+            "max": 297
+          },
+          "loadEventStart": {
+            "median": 286,
+            "mean": 280,
+            "mdev": 9.479,
+            "rsd": 5.856651774565874,
+            "stddev": 16,
+            "min": 258,
+            "p10": 258,
+            "p90": 297,
+            "p99": 297,
+            "max": 297
+          },
+          "redirectEnd": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "redirectStart": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "requestStart": {
+            "median": 16,
+            "mean": 18,
+            "mdev": 2.4944,
+            "rsd": 24.002743327436523,
+            "stddev": 4,
+            "min": 14,
+            "p10": 14,
+            "p90": 24,
+            "p99": 24,
+            "max": 24
+          },
+          "responseEnd": {
+            "median": 19,
+            "mean": 20,
+            "mdev": 2.6247,
+            "rsd": 22.730302828309757,
+            "stddev": 5,
+            "min": 15,
+            "p10": 15,
+            "p90": 26,
+            "p99": 26,
+            "max": 26
+          },
+          "responseStart": {
+            "median": 18,
+            "mean": 20,
+            "mdev": 2.6805,
+            "rsd": 23.607437757939184,
+            "stddev": 5,
+            "min": 15,
+            "p10": 15,
+            "p90": 26,
+            "p99": 26,
+            "max": 26
+          },
+          "secureConnectionStart": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "startTime": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "unloadEventEnd": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "unloadEventStart": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "workerStart": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          }
+        },
+        "pageTimings": {
+          "backEndTime": {
+            "median": 18,
+            "mean": 20,
+            "mdev": 2.6805,
+            "rsd": 23.607437757939184,
+            "stddev": 5,
+            "min": 15,
+            "p10": 15,
+            "p90": 26,
+            "p99": 26,
+            "max": 26
+          },
+          "domContentLoadedTime": {
+            "median": 283,
+            "mean": 278,
+            "mdev": 9.6762,
+            "rsd": 6.035920811513342,
+            "stddev": 17,
+            "min": 255,
+            "p10": 255,
+            "p90": 295,
+            "p99": 295,
+            "max": 295
+          },
+          "domInteractiveTime": {
+            "median": 56,
+            "mean": 58,
+            "mdev": 4.9963,
+            "rsd": 15.00665316271349,
+            "stddev": 9,
+            "min": 48,
+            "p10": 48,
+            "p90": 69,
+            "p99": 69,
+            "max": 69
+          },
+          "domainLookupTime": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "frontEndTime": {
+            "median": 260,
+            "mean": 260,
+            "mdev": 10.1361,
+            "rsd": 6.7437613737586135,
+            "stddev": 18,
+            "min": 239,
+            "p10": 239,
+            "p90": 282,
+            "p99": 282,
+            "max": 282
+          },
+          "pageDownloadTime": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "pageLoadTime": {
+            "median": 286,
+            "mean": 280,
+            "mdev": 9.479,
+            "rsd": 5.856651774565874,
+            "stddev": 16,
+            "min": 258,
+            "p10": 258,
+            "p90": 297,
+            "p99": 297,
+            "max": 297
+          },
+          "redirectionTime": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "serverConnectionTime": {
+            "median": 0,
+            "mean": 0,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 0,
+            "p10": 0,
+            "p90": 0,
+            "p99": 0,
+            "max": 0
+          },
+          "serverResponseTime": {
+            "median": 2,
+            "mean": 2,
+            "mdev": 0,
+            "rsd": 0,
+            "stddev": 0,
+            "min": 2,
+            "p10": 2,
+            "p90": 2,
+            "p99": 2,
+            "max": 2
+          }
+        },
+        "paintTiming": {
+          "first-contentful-paint": {
+            "median": 283,
+            "mean": 277,
+            "mdev": 9.479,
+            "rsd": 5.920004978858053,
+            "stddev": 16,
+            "min": 255,
+            "p10": 255,
+            "p90": 294,
+            "p99": 294,
+            "max": 294
+          }
+        },
+        "timeToContentfulPaint": {
+          "median": 461,
+          "mean": 475,
+          "mdev": 17.6404,
+          "rsd": 6.436967987657858,
+          "stddev": 31,
+          "min": 446,
+          "p10": 446,
+          "p90": 517,
+          "p99": 517,
+          "max": 517
+        },
+        "timeToFirstInteractive": {
+          "median": 461,
+          "mean": 475,
+          "mdev": 17.6404,
+          "rsd": 6.436967987657858,
+          "stddev": 31,
+          "min": 446,
+          "p10": 446,
+          "p90": 517,
+          "p99": 517,
+          "max": 517
+        },
+        "ttfb": {
+          "median": 18,
+          "mean": 20,
+          "mdev": 2.6805,
+          "rsd": 23.607437757939184,
+          "stddev": 5,
+          "min": 15,
+          "p10": 15,
+          "p90": 26,
+          "p99": 26,
+          "max": 26
+        },
+        "fullyLoaded": {
+          "median": 9214,
+          "mean": 6635,
+          "mdev": 2594.7855,
+          "rsd": 67.73284839065485,
+          "stddev": 4494,
+          "min": 315,
+          "p10": 315,
+          "p90": 10377,
+          "p99": 10377,
+          "max": 10377
+        },
+        "mainDocumentTimings": {
+          "blocked": {
+            "median": 14.14,
+            "mean": 14.44,
+            "mdev": 1.1518,
+            "rsd": 13.817237518950753,
+            "stddev": 2,
+            "min": 12.16,
+            "p10": 12.16,
+            "p90": 17.02,
+            "p99": 17.02,
+            "max": 17.02
+          },
+          "dns": {
+            "median": 0.073,
+            "mean": 0.0716,
+            "mdev": 0.0089,
+            "rsd": 21.61541671283303,
+            "stddev": 0.0155,
+            "min": 0.052,
+            "p10": 0.052,
+            "p90": 0.0898,
+            "p99": 0.0898,
+            "max": 0.0898
+          },
+          "connect": {
+            "median": 0.186,
+            "mean": 0.2201,
+            "mdev": 0.0311,
+            "rsd": 24.496266477895052,
+            "stddev": 0.0539,
+            "min": 0.178,
+            "p10": 0.178,
+            "p90": 0.2961,
+            "p99": 0.2961,
+            "max": 0.2961
+          },
+          "ssl": {
+            "median": 0.186,
+            "mean": 0.2201,
+            "mdev": 0.0311,
+            "rsd": 24.496266477895052,
+            "stddev": 0.0539,
+            "min": 0.178,
+            "p10": 0.178,
+            "p90": 0.2961,
+            "p99": 0.2961,
+            "max": 0.2961
+          },
+          "send": {
+            "median": 1.22,
+            "mean": 2.77,
+            "mdev": 1.4254,
+            "rsd": 89.08806892615317,
+            "stddev": 2.47,
+            "min": 0.84,
+            "p10": 0.84,
+            "p90": 6.26,
+            "p99": 6.26,
+            "max": 6.26
+          },
+          "wait": {
+            "median": 2.06,
+            "mean": 2.07,
+            "mdev": 0.1495,
+            "rsd": 12.501670406046701,
+            "stddev": 0.26,
+            "min": 1.76,
+            "p10": 1.76,
+            "p90": 2.4,
+            "p99": 2.4,
+            "max": 2.4
+          },
+          "receive": {
+            "median": 0.0781,
+            "mean": 0.0719,
+            "mdev": 0.0098,
+            "rsd": 23.520708449533082,
+            "stddev": 0.0169,
+            "min": 0.0488,
+            "p10": 0.0488,
+            "p90": 0.0889,
+            "p99": 0.0889,
+            "max": 0.0889
+          }
+        }
+      },
+      "googleWebVitals": {
+        "largestContentfulPaint": {
+          "median": 283,
+          "mean": 277,
+          "mdev": 9.479,
+          "rsd": 5.920004978858053,
+          "stddev": 16,
+          "min": 255,
+          "p10": 255,
+          "p90": 294,
+          "p99": 294,
+          "max": 294
+        },
+        "firstContentfulPaint": {
+          "median": 283,
+          "mean": 277,
+          "mdev": 9.479,
+          "rsd": 5.920004978858053,
+          "stddev": 16,
+          "min": 255,
+          "p10": 255,
+          "p90": 294,
+          "p99": 294,
+          "max": 294
+        }
+      },
+      "deltaToTFFB": {
+        "firstContentfulPaint": {
+          "median": 257,
+          "mean": 258,
+          "mdev": 9.9032,
+          "rsd": 6.657014401173923,
+          "stddev": 17,
+          "min": 237,
+          "p10": 237,
+          "p90": 279,
+          "p99": 279,
+          "max": 279
+        },
+        "largestContentfulPaint": {
+          "median": 257,
+          "mean": 258,
+          "mdev": 9.9032,
+          "rsd": 6.657014401173923,
+          "stddev": 17,
+          "min": 237,
+          "p10": 237,
+          "p90": 279,
+          "p99": 279,
+          "max": 279
+        }
+      }
+    }
+  }
+]

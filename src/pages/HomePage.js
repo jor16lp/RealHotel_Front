@@ -277,7 +277,8 @@ export default function HomePage({ t, user }) {
           onChange={(e) => setSearchCity(e.target.value)}
         />
 
-        <select
+        <select 
+          aria-label="estrellas"
           value={searchStars}
           onChange={(e) => setSearchStars(e.target.value)}>
           <option value="">{t("allStars")}</option>
@@ -300,7 +301,9 @@ export default function HomePage({ t, user }) {
       <div className="sort-bar">
         <p>{t("sortBy")}:</p>
         
-        <select
+        <select 
+          aria-label="ordenación"
+          label=""
           value={sortField}
           onChange={(e) => setSortField(e.target.value)}
         >
@@ -310,7 +313,9 @@ export default function HomePage({ t, user }) {
           <option value="city">{t("city")}</option>
         </select>
 
-        <select
+        <select 
+          aria-label="estilo_orden"
+          label=""
           value={sortOrder}
           onChange={(e) => setSortOrder(e.target.value)}
           disabled={!sortField}

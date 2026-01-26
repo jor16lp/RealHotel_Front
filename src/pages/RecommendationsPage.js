@@ -129,58 +129,6 @@ export default function RecommendationsPage({ t, user }) {
       {/* 📊 RESULTADOS */}
       <div className="recommendations-list">
         {hotels.map((hotel) => (
-          // <div key={hotel.id} className="recommendation-card">
-            
-          //   {/* IZQUIERDA */}
-          //   <div className="card-main">
-          //     <h3>{hotel.name} {"⭐".repeat(hotel.stars)}</h3>
-
-          //     <p className="location">
-          //       {hotel.city}, {hotel.community}
-          //     </p>
-
-          //     <p className="address">
-          //       📍 {hotel.address}
-          //     </p>
-
-          //     {hotel.phoneNumber && (
-          //       <p className="phone">
-          //         📞 {hotel.phoneNumber}
-          //       </p>
-          //     )}
-          //   </div>
-
-          //   {/* DERECHA */}
-          //   <div className="card-extra">
-          //     <p>
-          //       <strong>{t("averagePrice")}:</strong> {hotel.averagePrice} €
-          //     </p>
-
-          //     <p>
-          //       <strong>{t("capacity")}:</strong> {hotel.capacity}
-          //     </p>
-
-          //     {hotel.diningRoomCapacity ? (
-          //       <p>
-          //         <strong>{t("diningRoomCapacity")}:</strong> {hotel.diningRoomCapacity}
-          //       </p>
-          //     ) : (
-          //       <p className="no-dining">
-          //         <strong>{t("noDiningRoom")}</strong>
-          //       </p>
-          //     )}
-
-          //     <button
-          //       className="details-btn"
-          //       onClick={() =>
-          //         navigate("/map", { state: { hotel } })
-          //       }
-          //     >
-          //       {t("showOnMap")}
-          //     </button>
-          //   </div>
-
-          // </div>
           <div className="recommendation-card">
             {/* IZQUIERDA */}
             <div className="card-main">

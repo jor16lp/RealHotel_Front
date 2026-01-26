@@ -56,16 +56,18 @@ export default function LoginPage({ t, onLogin }) {
 
         {error && <p className="form-error">{error}</p>}
 
-        <label>{t("email")}</label>
+        <label htmlFor="login-email">{t("email")}</label>
         <input
+          id="login-email"
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         />
 
-        <label>{t("password")}</label>
+        <label htmlFor="login-password">{t("password")}</label>
         <input
+          id="login-password"
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}

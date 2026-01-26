@@ -63,24 +63,27 @@ export default function RegisterPage({ t, onRegister }) {
       <form onSubmit={handleSubmit} className="form-container register-form">
         <h2>{t("register")}</h2>
 
-        <label>{t("name")}</label>
+        <label htmlFor="register-name">{t("name")}</label>
         <input
+          id="register-name"
           name="name"
           value={form.name}
           onChange={handleChange}
           required
         />
 
-        <label>{t("surname")}</label>
+        <label htmlFor="register-surname">{t("surname")}</label>
         <input
+          id="register-surname"
           name="surname"
           value={form.surname}
           onChange={handleChange}
           required
         />
 
-        <label>{t("email")}</label>
+        <label htmlFor="register-email">{t("email")}</label>
         <input
+          id="register-email"
           type="email"
           name="email"
           value={form.email}
@@ -88,8 +91,9 @@ export default function RegisterPage({ t, onRegister }) {
           required
         />
 
-        <label>{t("password")}</label>
+        <label htmlFor="register-password">{t("password")}</label>
         <input
+          id="register-password"
           type="password"
           name="password"
           value={form.password}
